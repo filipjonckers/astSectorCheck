@@ -1,6 +1,6 @@
-#############################
-# Git ignore - Java Eclipse #
-#############################
+###############
+# Git ignore  #
+###############
  
 *.pyc
 *.bak
@@ -17,6 +17,7 @@
 .loadpath
 .metadata
 .project
+.vscode
 .settings
 .settings/
 /bin/

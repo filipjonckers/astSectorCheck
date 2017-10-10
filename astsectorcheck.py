@@ -3,7 +3,7 @@
 AstSectorCheck
 
 Dump sector messages from raw Asterix file.
-Copyright (c) 2013 Filip Jonckers.
+Copyright (c) 2013-2017 Filip Jonckers.
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free
 Software Foundation, either version 3 of the License, or (at your option) any later version.
@@ -304,16 +304,13 @@ def bitcount(number):
 
 # for dummies
 def usage():
-    print 'usage: astsectorcheck <asterix-file>'
+    print 'usage: astsectorcheck <raw-asterix-file>'
 
 # main
 def main():
     # init
     global rotation_
     rotation_ = getNewRotationList()
-    
-    # DEBUG
-    #sys.argv.append('data/wan-btcs.ast')
      
     # check command line arguments
     if len(sys.argv) < 2:
